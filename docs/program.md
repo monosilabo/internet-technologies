@@ -64,3 +64,65 @@ Leer los capítulos de [Beej's Guide to Network Programming](http://www.beej.us/
 4. Jumping from IPv4 to IPv61 Introducción a Sockets
 
 Al finalizar la lectura, completar la actividad "1 Introducción a Sockets".
+
+---
+
+## Routing schemes, UDP & TCP
+
+1. Routing schemes: Unicast, broadcast, multicast, anycast
+2. Intro a Node.js
+3. Network APIs: `net` & `dgram`
+
+### Referencias
+
+1. IP Multicasting, http://www.tcpipguide.com/free/t_IPMulticasting.htm
+2. A Brief Primer on Anycast, https://blog.cloudflare.com/a-brief-anycast-primer
+3. UDP / Datagram Sockets, https://nodejs.org/api/dgram.html
+4. Net, https://nodejs.org/api/net.html
+
+### Material didáctico
+
+**Multicast Addressing**
+
+Special addressing must be used for multicasting. These *multicast addresses* identify not single devices but rather *multicast groups* of devices that listen for certain datagrams sent to them. In IPv4, 1/16th of the entire address space was set aside for multicast addresses: the Class D block of the original[“classful” addressing scheme](http://www.tcpipguide.com/free/t_IPClassfulConventionalAddressing.htm).
+
+### Tarea
+
+Crear los siguientes programas:
+
+1. Servidor ECHO usando TCP
+
+   1. Cuando el cliente le envía un mensaje X al servidor, el servidor devuelve el mismo mensaje X
+   2. Conectarse al servidor usando `telnet`. Ejemplo: `telnet localhost 8124`
+   3. Enviar mensaje con netcat. Ejemplo: `echo 'Hola mono' | nc localhost 8124`
+
+2. Servidor ECHO TCP que escucha en el unix domain socket `/tmp/echo.socket`
+
+   1. Realizar las pruebas del programa 1
+   2. ¿Cómo te conectas a un unix socket con `nc`? Consultar el man de `nc`
+
+3. Servidor ECHO TCP que en vez de devolver integramente el mensaje que el cliente envía, acompañe el mensaje de respuesta con el prefijo `>`
+
+   1. Ejemplo, el cliente se conecta al servidor con `telnet`:
+
+      ```bash
+      $ telnet localhost 8124
+      Trying ::1...
+      Connected to localhost.
+      Escape character is '^]'.
+      hello
+      hi
+      > hi
+      ```
+
+4. Servidor Broadcast de noticias y cliente
+
+   1. Envía cada 3 segundos 1 mensaje aleatorio de una lista de noticias a todos los nodos de la red en la que estás conectado
+   2. Tips:
+      1. Definir una dirección broadcast
+         1. Extra: Obtener dinámicamente la dirección broadcast de la red en la que estás conectado. Ver módulo de npm `netmask`
+      2. Definir un puerto en el que los clientes escucharán mensajes
+
+5. Servidor Multicast de noticias y cliente
+
+---
