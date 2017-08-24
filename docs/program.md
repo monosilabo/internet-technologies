@@ -75,10 +75,12 @@ Al finalizar la lectura, completar la actividad "1 Introducción a Sockets".
 
 ### Referencias
 
-1. IP Multicasting, http://www.tcpipguide.com/free/t_IPMulticasting.htm
-2. A Brief Primer on Anycast, https://blog.cloudflare.com/a-brief-anycast-primer
-3. UDP / Datagram Sockets, https://nodejs.org/api/dgram.html
-4. Net, https://nodejs.org/api/net.html
+1. IP Reserved, Loopback and Private Addresses, http://www.tcpipguide.com/free/t_IPReservedPrivateandLoopbackAddresses.htm
+2. IP Multicasting, http://www.tcpipguide.com/free/t_IPMulticasting.htm
+3. IP Multicast Addressing, http://www.tcpipguide.com/free/t_IPMulticastAddressing.htm
+4. A Brief Primer on Anycast, https://blog.cloudflare.com/a-brief-anycast-primer
+5. UDP / Datagram Sockets, https://nodejs.org/api/dgram.html
+6. Net, https://nodejs.org/api/net.html
 
 ### Material didáctico
 
