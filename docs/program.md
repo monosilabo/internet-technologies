@@ -128,3 +128,23 @@ Crear los siguientes programas:
 5. Servidor Multicast de noticias y cliente
 
 ---
+
+## Conexión con TCP
+
+1. Process module
+   1. `arg`
+   2. `stdin`
+   3. `stdout`
+2. File system
+   1. `readFile`
+3. Net
+   1. `connect` / `createConnection`
+
+### Referencias
+
+1. Process, https://nodejs.org/api/process.html
+2. File System, https://nodejs.org/api/fs.html
+
+### Tarea
+
+Completar la actividad "2 Clientes TCP".
