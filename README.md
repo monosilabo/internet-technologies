@@ -22,6 +22,7 @@ El alumno:
 * La última versión de un navegador moderno: Chrome, Firefox, Safari
 * Conocimientos básicos de programación
 * git
+* (Markdown)[https://guides.github.com/features/mastering-markdown/]
 
 ## Contenido
 
