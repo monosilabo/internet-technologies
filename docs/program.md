@@ -63,7 +63,7 @@ Leer los capítulos de [Beej's Guide to Network Programming](http://www.beej.us/
 3. IP Addresses, structs, and Data Munging
 4. Jumping from IPv4 to IPv61 Introducción a Sockets
 
-Al finalizar la lectura, completar la actividad "1 Introducción a Sockets".
+Al finalizar la lectura, completar la actividad ["1 Introducción a Sockets"](/activities/lab-practices/1%20Introducción%20a%20Sockets.md).
 
 ---
 
@@ -147,4 +147,4 @@ Crear los siguientes programas:
 
 ### Tarea
 
-Completar la actividad "2 Clientes TCP".
+Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes%20TCP.md).
