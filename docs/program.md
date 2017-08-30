@@ -14,7 +14,7 @@
 
 ### Material didáctico
 
-### Tarea
+### Actividades
 
 ---
 
@@ -30,7 +30,7 @@
 1. Computer Networks, David Wheterall (Coursera). Lecture 1-1 Goals and motivations
 2. Computer Networks, David Wheterall (Coursera). Lecture 1-2 Uses of networks
 
-### Tarea
+### Actividades
 
 ---
 
@@ -55,7 +55,7 @@ traceroute affenbits.com
 traceroute anahuacmayab.mx
 ```
 
-### Tarea
+### Actividades
 
 Leer los capítulos de [Beej's Guide to Network Programming](http://www.beej.us/guide/bgnet/output/html/multipage/index.html):
 
@@ -88,7 +88,7 @@ Al finalizar la lectura, completar la actividad ["1 Introducción a Sockets"](/a
 
 Special addressing must be used for multicasting. These *multicast addresses* identify not single devices but rather *multicast groups* of devices that listen for certain datagrams sent to them. In IPv4, 1/16th of the entire address space was set aside for multicast addresses: the Class D block of the original[“classful” addressing scheme](http://www.tcpipguide.com/free/t_IPClassfulConventionalAddressing.htm).
 
-### Tarea
+### Actividades
 
 Crear los siguientes programas:
 
@@ -145,6 +145,6 @@ Crear los siguientes programas:
 1. Process, https://nodejs.org/api/process.html
 2. File System, https://nodejs.org/api/fs.html
 
-### Tarea
+### Actividades
 
 Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes%20TCP.md).
