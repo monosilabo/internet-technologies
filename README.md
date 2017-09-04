@@ -61,9 +61,8 @@ Los requisitos mínimos para poder aprobar el curso son:
 * Asistir al 80% de las clases (**Requisito de asistencia mínima**)
 * Presentarse el día de la evaluación final (**Requisito de evaluación final**)
 * Aprobar con la calificación mínima el curso. Los criterios de evaluación del curso:
-  * 20% Tareas y lecturas
-  * 20% Parcial, Proyecto aplicativo/integrador I
-  * 20% Parcial, Proyecto aplicativo/integrador II
+  * 30% Parcial, Proyecto aplicativo/integrador I
+  * 30% Parcial, Proyecto aplicativo/integrador II
   * 40% Final, Proyecto aplicativo/integrador
 
 ## Herramientas
