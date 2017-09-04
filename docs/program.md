@@ -148,3 +148,31 @@ Crear los siguientes programas:
 ### Actividades
 
 Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes%20TCP.md).
+
+## Código asíncrono
+
+1. Ejecución síncrona y asíncrona
+2. Callback hell
+3. Soporte
+   1. Node.js 
+   2. Browsers
+   3. Compiladores
+4. Control de programas asíncronos
+   1. Named functions
+   2. Promises
+      1. [Promise](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+      2. Promise.all
+   3. Async/await
+
+### Referencias
+
+1. Callback Hell, http://callbackhell.com/
+2. JavaScript Callbacks are Pretty Okay, http://andrewkelley.me/post/js-callback-organization.html
+3. JavaScript - from callbacks to async/await, https://medium.com/@daspinola/javascript-from-callbacks-to-async-await-1cc090ddad99
+4. JavaScript Promise API, https://davidwalsh.name/promises
+5. Promises, http://www.promisejs.org/
+6. async & await, https://davidwalsh.name/async-await
+
+### Actividades
+
+Completa la actividad ["4 Promises"](/activities/lab-practices/4%20Promises.md).
