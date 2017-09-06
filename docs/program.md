@@ -177,3 +177,22 @@ Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes
 ### Actividades
 
 Completa las actividades  ["3 Handling asynchronous operations"](/activities/lab-practices/3%20Handling%20asynchronous%20operations.md) y ["4 Promises"](/activities/lab-practices/4%20Promises.md).
+
+## async /await
+
+1. async
+2. await
+3. try / catch
+4. Paralelismo
+
+### Referencias
+
+1. async function, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+2. async & await, https://davidwalsh.name/async-await
+3. Async functions - making promises friendly, https://developers.google.com/web/fundamentals/getting-started/primers/async-functions
+4. Mastering Async Await in Node.js, https://blog.risingstack.com/mastering-async-await-in-nodejs/
+
+### Actividades
+
+Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/lab-practices/Repositorios%20de%20un%20usuario%20con%20async.md).
+
