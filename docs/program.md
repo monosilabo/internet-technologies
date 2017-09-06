@@ -154,7 +154,7 @@ Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes
 1. Ejecución síncrona y asíncrona
 2. Callback hell
 3. Soporte
-   1. Node.js 
+   1. [Node.js](http://node.green/)
    2. Browsers
    3. Compiladores
 4. Control de programas asíncronos
@@ -169,10 +169,11 @@ Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes
 1. Callback Hell, http://callbackhell.com/
 2. JavaScript Callbacks are Pretty Okay, http://andrewkelley.me/post/js-callback-organization.html
 3. JavaScript - from callbacks to async/await, https://medium.com/@daspinola/javascript-from-callbacks-to-async-await-1cc090ddad99
-4. JavaScript Promise API, https://davidwalsh.name/promises
-5. Promises, http://www.promisejs.org/
-6. async & await, https://davidwalsh.name/async-await
+4. JavaScript Promises: an Introduction, https://developers.google.com/web/fundamentals/getting-started/primers/promises
+5. JavaScript Promise API, https://davidwalsh.name/promises
+6. Promises, http://www.promisejs.org/
+7. We have a problem with promises, https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
 
 ### Actividades
 
-Completa la actividad ["4 Promises"](/activities/lab-practices/4%20Promises.md).
+Completa las actividades  ["3 Handling asynchronous operations"](/activities/lab-practices/3%20Handling%20asynchronous%20operations.md) y ["4 Promises"](/activities/lab-practices/4%20Promises.md).
