@@ -196,3 +196,72 @@ Completa las actividades  ["3 Handling asynchronous operations"](/activities/lab
 
 Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/lab-practices/Repositorios%20de%20un%20usuario%20con%20async.md).
 
+## Criptografía & TLS/SSL
+
+1. Objetivos de la criptografía
+   1. Confidencialidad (privacidad)
+   2. Integridad
+   3. Autenticación
+   4. Vinculación
+2. Conceptos
+   1. Cipher (cifrador, algoritmo de encriptación)
+   2. Texto plano (plain/clear text)
+   3. Encriptación/cifrado
+      1. Técnicas: Simétrica y asimétrica
+3. Criptografía simétrica
+   1. Solo una llave
+   2. DES (Data Encryption Standard a.k.a Data Encryption Algorithm (DEA), Triple DES (TDES a.k.a. TDEA (Triple Data Encryption Algorithm)), AES (Advanced Encryption Standard), IDEA (International Data encryption Algorithm) & RC4
+4. Criptografía de clave pública o criptografía asimétrica
+   1. RSA (Rivest, Shamir, and Adelman), DSA (Digital Signature Algorithm) & Elliptic Curve Cryptography (ECC)
+   2. Tamaño/longitud de las llaves: 512 bits, 1024 & 2048 bits
+   3. Cifrado con llave pública, descifrado con llave privada
+   4. Confianza en la llave púbica -> PKI
+      1. Certificado X.509 (o SSL)
+      2. CA
+5. Message Digests (Hashes)
+   1. Integridad de los datos
+   2. Algoritmos: MD5 (Message Digest 5) , SHA-1, SHA-224, SHA-256, SHA-384 & SHA-512 (familia SHA-2)
+6. Message Authentication Code (MAC)
+   1. Autenticación e integridad de los datos
+   2. CMAC (symmetric block cipher) & HMAC (hashed MAC)
+   3. Algoritmos
+      1. HMAC: HMAC-MD5, HMAC-SHA-1,HMAC-SHA-224, HMAC-SHA-256 & HMAC-SHA-384
+      2. CMAC
+7. Firma digital (Digital signature)
+   1. Autenticación e integridad de los datos usando criptografía asimétrica
+   2. Algoritmos: RSA-MD5, RSA-SHA-1, RSA-SHA-256, RSA-SHA-384, DSA (Digital Signature Algorithm) & ECDSA (Elliptic Curve Digital Signature Algorithm)
+8. SSL
+   1. Nace en 1992, Netscape
+   2. SSL 1.0, SSL 2.0 & SSL  3.0
+   3. Prohibiting Secure Sockets Layer (SSL) Version 2.0, https://tools.ietf.org/html/rfc6176
+9. TLS
+   1. TCP > TLS > Protocolo de usuario (HTTP, IMAP, SMTP)
+      1. Datagram Transport Layer Security (DTLS) para UDP
+   2. Sin puerto conocido, el protocolo de usuario designa un puerto seguro
+      1. HTTPS: 443
+      2. IMAPS: 993
+      3. POP3S: 995
+      4. SMTPS: 464
+   3. [STARTTLS](https://en.wikipedia.org/wiki/Starttls), [Upgrading to TLS Within HTTP/1.1](https://tools.ietf.org/html/rfc2817)
+   4. Versiones: 1.0, 1.1, 1.2, 1.3
+   5. Handshake Protocol
+      1. Negociación y establecimiento de la conexión segura
+      2. Elige el protocolo SSL/TLS. El cliente envía una lista de protocolos & cipher suites, el cliente elige una
+      3. Negociación del ciphersuite
+         1. Key-exchange algorithm (encriptación asimétrica)
+         2. Data-encryption algorithm
+         3. MAC
+      4. Certificado del servidor
+      5. Sesión
+   6. Record (or Data) Protocol
+      1. Transferencia de los datos encriptados
+      2. Encriptación simétrica
+
+### Referencias
+
+1. "Survival Guide - Encryption, Authentication", http://www.zytrax.com/tech/survival/encryption.html
+2. Survival guides - TLS/SSL and SSL (X.509) Certificates, http://www.zytrax.com/tech/survival/ssl.html
+3. CRYPTO 101, https://www.crypto101.io/
+4. Cryptographic concepts, https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_9.0.0/com.ibm.mq.sec.doc/q009790_.htm
+
+### Actividades
