@@ -263,5 +263,11 @@ Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/l
 2. Survival guides - TLS/SSL and SSL (X.509) Certificates, http://www.zytrax.com/tech/survival/ssl.html
 3. CRYPTO 101, https://www.crypto101.io/
 4. Cryptographic concepts, https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_9.0.0/com.ibm.mq.sec.doc/q009790_.htm
+5. Symmetric key encryption, https://upload.wikimedia.org/wikipedia/commons/2/27/Symmetric_key_encryption.svg
+6. Public key encription, https://upload.wikimedia.org/wikipedia/commons/f/f9/Public_key_encryption.svg
+7. Cryptographic hash function, https://upload.wikimedia.org/wikipedia/commons/2/2b/Cryptographic_Hash_Function.svg
+8. MAC, https://upload.wikimedia.org/wikipedia/commons/0/08/MAC.svg
+9. Lifetimes of cryptographic hash functions, http://valerieaurora.org/hash.html
+10. Security/Server Side TLS, https://wiki.mozilla.org/Security/Server_Side_TLS
 
 ### Actividades
