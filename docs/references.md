@@ -21,6 +21,11 @@
 1. Google Public DNS, https://dns.google.com/query
 2. dig(1) - Linux man page, https://linux.die.net/man/1/dig
 
+### Tools
+
+1. DNSPerf, https://www.dnsperf.com/
+2. DNSMaps, https://dnsmap.io
+
 ## FTP
 
 1. RFC 959:  FILE TRANSFER PROTOCOL (FTP), https://tools.ietf.org/html/rfc959
@@ -35,6 +40,7 @@
 2. Chapter 28. Electronic Mail, http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/mail.html
 3. How email works (MTA, MDA, MUA), http://ccm.net/contents/116-how-email-works-mta-mda-mua
 4. Mailbox Formats, https://wiki2.dovecot.org/MailboxFormat
+5. The History of Email, https://blog.cloudflare.com/the-history-of-email/
 
 ## SMTP
 
@@ -76,3 +82,8 @@
 1. AMQP, https://www.amqp.org/
 2. ISO/IEC 19464:2014, https://www.iso.org/standard/64955.html
 3. AMQP 0-9-1 Model Explained, https://www.rabbitmq.com/tutorials/amqp-concepts.html
+
+## Criptografía
+
+1. How To Use GPG to Encrypt and Sign Messages, https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages
+2. OpenPGP Message Format, https://tools.ietf.org/html/rfc4880
