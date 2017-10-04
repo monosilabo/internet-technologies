@@ -272,4 +272,4 @@ Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/l
 
 ### Actividades
 
-Completa la actividad  ["6 Criptografía & TLS"](/activities/lab-practices/6%20Criptografi%CC%81a%20%26%20TLS.md).
+Completa la actividad  ["6 Criptografía & TLS"](/activities/lab-practices/6%20Criptografía%20&%20TLS.md).
