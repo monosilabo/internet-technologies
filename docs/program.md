@@ -271,3 +271,5 @@ Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/l
 10. Security/Server Side TLS, https://wiki.mozilla.org/Security/Server_Side_TLS
 
 ### Actividades
+
+Completa la actividad  ["6 Criptografía & TLS"](/activities/lab-practices/6%20Criptografi%CC%81a%20%26%20TLS.md).
