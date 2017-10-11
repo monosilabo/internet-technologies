@@ -273,3 +273,19 @@ Completa la actividad   ["5 Repositorios de un usuario con async"](/activities/l
 ### Actividades
 
 Completa la actividad  ["6 Criptografía & TLS"](/activities/lab-practices/6%20Criptografía%20&%20TLS.md).
+
+## Autenticación con reto
+
+1. Criptografía asimétrica
+   1. `crypto.publicEncrypt` y `crypto.privateDecrypt`
+2. `ssh-keygen`
+3. Formatos de llave: RFC4716 (RFC 4716/SSH2 public or private key), PKCS8 (PEM PKCS8 public key) y PEM (PEM public key)
+
+### Actividades
+
+Completa la actividad  ["7 Autenticación con reto"](/activities/lab-practices/7%20Autenticaci%C3%B3n%20con%20reto.md).
+
+### Referencias
+
+1. crypto.publicEncrypt(publicKey, buffer), https://nodejs.org/api/crypto.html#crypto_crypto_publicencrypt_publickey_buffer
+2. crypto.privateDecrypt(privateKey, buffer), https://nodejs.org/api/crypto.html#crypto_crypto_privatedecrypt_privatekey_buffer
