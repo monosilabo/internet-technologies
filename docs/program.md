@@ -42,6 +42,9 @@
 
 ### Referencias
 
+1. Beej's Guide to Network Programming, http://www.beej.us/guide/bgnet/output/html/multipage/index.html
+2. "Programming IP Sockets on Linux, Part One", http://gnosis.cx/publish/programming/sockets.html
+
 ### Material didáctico
 
 1. Computer Networks, David Wheterall (Coursera). Lecture 1-4 The Socket API
@@ -173,6 +176,7 @@ Completar la actividad ["2 Clientes TCP"](/activities/lab-practices/2%20Clientes
 5. JavaScript Promise API, https://davidwalsh.name/promises
 6. Promises, http://www.promisejs.org/
 7. We have a problem with promises, https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
+8. ES6 Promises: Patterns and Anti-Patterns, https://medium.com/datafire-io/es6-promises-patterns-and-anti-patterns-bbb21a5d0918
 
 ### Actividades
 
