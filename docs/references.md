@@ -1,5 +1,21 @@
 # Referencias complementarias
 
+## Redes
+
+1. Packet Switching, http://en.wikipedia.org/wiki/Packet_switching#mediaviewer/File:Packet_Switching.gif
+2. Tier 1 network, http://en.wikipedia.org/wiki/Tier_1_network
+3. The Internet, The Opte Project, http://www.opte.org/the-internet/
+4. ISC Internet Domain Survey, https://www.isc.org/network/survey/
+5. Big and Little Endian, http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html
+
+## Internet
+
+1. A brief history of Internet, http://internethalloffame.org/brief-history-internet
+2. Service Name and Transport Protocol Port Number Registry, https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml
+3. A magna carta for the Web, https://www.ted.com/talks/tim_berners_lee_a_magna_carta_for_the_web
+4. Tor: overview, https://www.torproject.org/about/overview.html.en
+5. Digital Attack Map, http://www.digitalattackmap.com/
+
 ## Protocolos
 
 1. RFC 1122: Requirements for Internet Hosts -- Communication Layers, http://tools.ietf.org/html/rfc1122
@@ -87,3 +103,25 @@
 
 1. How To Use GPG to Encrypt and Sign Messages, https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages
 2. OpenPGP Message Format, https://tools.ietf.org/html/rfc4880
+
+## JavaScript
+
+### Control flow
+
+1. 'Callbacks, Promises, and Coroutines (oh my!): Asynchronous Programming Patterns in JavaScript', https://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript
+2. Promises & Generators, http://pag.forbeslindesay.co.uk/
+
+### Promises
+
+1. Learn JavaScript Promises by Building a Promise from Scratch, https://medium.com/gitconnected/understand-javascript-promises-by-building-a-promise-from-scratch-84c0fd855720
+2. then / promise, https://github.com/then/promise
+
+## Node.js
+
+1. About Node.js, https://nodejs.org/en/about/
+2. Node.js Usage, https://nodejs.org/api/synopsis.html
+3. Node.js Documentation, https://nodejs.org/docs/latest/api/
+4. NodeSchool, https://nodeschool.io/
+5. Node.js Articles, Mozilla, https://hacks.mozilla.org/category/node-js/
+6. How do I get started with Node.js, http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js
+7. The Art of Node, https://github.com/maxogden/art-of-node
