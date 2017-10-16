@@ -293,3 +293,43 @@ Completa la actividad  ["7 Autenticación con reto"](/activities/lab-practices/7
 
 1. crypto.publicEncrypt(publicKey, buffer), https://nodejs.org/api/crypto.html#crypto_crypto_publicencrypt_publickey_buffer
 2. crypto.privateDecrypt(privateKey, buffer), https://nodejs.org/api/crypto.html#crypto_crypto_privatedecrypt_privatekey_buffer
+
+## Introducción a HTTP
+
+- Protocolo de aplicación
+  - "Stateless application-level protocol for distributed, collaborative, hypertext information systems"
+  - Puertos: 80, 443
+- Historia
+  - HTTP 0.9
+    - Tim Berners-Lee
+    - Solicitud GET e Hipertexto
+    - 1994 - 1995:
+      - NCSA Mosaic > Netscape
+      - W3C - HTML & HTTP Working Group (HTTP-WG) de IETF - HTTP
+      - Servicio de internet dialup con CompuServe, AOL, and Prodigy
+  - HTTP 1.0
+  - HTTP 1.1
+  - HTTP 2
+    - Bi-directionals streams
+    - Mantiene la semántica de HTTP 1
+- Peticiones y respuestas
+- Métodos, códigos de estado & encabezados
+
+### Referencias
+
+1. Brief History of HTTP, https://hpbn.co/brief-history-of-http/
+2. Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing, https://tools.ietf.org/html/rfc7230
+3. Hypertext Transfer Protocol (HTTP/1.1): Semantics and Content, https://tools.ietf.org/html/rfc7231
+4. Hypertext Transfer Protocol (HTTP/1.1): Conditional Requests, https://tools.ietf.org/html/rfc7232
+5. Hypertext Transfer Protocol (HTTP/1.1): Range Requests, https://tools.ietf.org/html/rfc7233
+6. Hypertext Transfer Protocol (HTTP/1.1): Caching, https://tools.ietf.org/html/rfc7234
+7. Hypertext Transfer Protocol (HTTP/1.1): Authentication, https://tools.ietf.org/html/rfc7235
+8. HTTP over TLS, https://tools.ietf.org/html/rfc2818
+9. HTTP Status Codes, https://httpstatuses.com/
+10. Chunk Skatter, https://github.com/cowchimp/chunk-scatter
+11. HTTP Keepalive Connections and Web Performance, https://www.nginx.com/blog/http-keepalives-and-web-performance/
+12. Get Started with Analyzing Network Performance in Chrome DevTools, https://developers.google.com/web/tools/chrome-devtools/network-performance/
+
+### Actividades
+
+Completa la actividad  ["8 Análisis de HTTP"](/activities/lab-practices/8%20An%C3%A1lisis%20de%20HTTP.md).
