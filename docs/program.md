@@ -333,3 +333,53 @@ Completa la actividad  ["7 Autenticación con reto"](/activities/lab-practices/7
 ### Actividades
 
 Completa la actividad  ["8 Análisis de HTTP"](/activities/lab-practices/8%20An%C3%A1lisis%20de%20HTTP.md).
+
+## Streams
+
+- Linux pipes
+  - Una *pipe* es una forma de redireccionar contenido
+  - Comandos
+  - Filtros
+  - Transferencia continua de datos
+  - Promueven la modularidad
+  - Notación: `command_1 | command_2 [| command_3 . . . ]`
+  - `ls`, `grep`, `sort`, `awk`, `perl`, `sed`
+- Un *stream* es una interfaz abstractar para trabajar con el streaming de datos en Node.js
+- Uso eficiente de memoria
+  - Recomendable para el procesamiento de gran cantidad de datos
+- *Chunks* (pedazos de información)
+- Composición
+- Tipos
+  - Readable
+  - Writable
+  - Duplex
+  - Transform
+- Instancias de `EventEmitter`, eventos
+- `ReadableStream`
+  - Paused (pull)
+  - Flowing (push)
+
+```javascript
+# a | b | c | d
+a.pipe(b).pipe(c).pipe(d)
+
+readable.pipe(writable)
+
+
+readable.on('data', (chunk) => {
+  writable.write(chunk);
+});
+readable.on('end', () => {
+  writable.end();
+});
+```
+
+### Referencias
+
+1. Pipes: A Brief Introduction, http://www.linfo.org/pipe.html
+2. Stream, https://nodejs.org/api/stream.html
+3. Node.js Streams: Everything you need to know, https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93
+
+### Actividades
+
+Completa los ejercicios de [stream adventure](https://github.com/workshopper/stream-adventure).
