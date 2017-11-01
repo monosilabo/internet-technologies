@@ -397,6 +397,10 @@ readable.on('end', () => {
 1. Pipes: A Brief Introduction, http://www.linfo.org/pipe.html
 2. Stream, https://nodejs.org/api/stream.html
 3. Node.js Streams: Everything you need to know, https://medium.freecodecamp.org/node-js-streams-everything-you-need-to-know-c9141306be93
+4. The Basics of Node.js Streams, https://www.sitepoint.com/basics-node-js-streams/
+5. A Brief History of Node Streams pt.1, https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-1-3401db451f21
+6. A Brief History of Node Streams pt.2, https://medium.com/the-node-js-collection/a-brief-history-of-node-streams-pt-2-bcb6b1fd7468
+7. pump, https://github.com/mafintosh/pump
 
 ### Actividades
 
