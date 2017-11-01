@@ -334,6 +334,24 @@ Completa la actividad  ["7 Autenticación con reto"](/activities/lab-practices/7
 
 Completa la actividad  ["8 Análisis de HTTP"](/activities/lab-practices/8%20An%C3%A1lisis%20de%20HTTP.md).
 
+## HTTP/2
+
+* Protocolo binario
+* Multiplexing, una sola conexión TCP
+* Prioridad en *streams*
+* Compresión de encabezados, HPACK
+* *Server push*
+* Nuevas estrategias de optimización
+
+### Referencias
+
+* Hypertext Transfer Protocol Version 2 (HTTP/2), https://tools.ietf.org/html/rfc7540
+* HTTP/2, https://hpbn.co/http2/
+* SPDY & HTTP 2, https://blogs.akamai.com/2014/01/spdy-http-2.html
+* Making the Web Faster with HTTP 2.0,http://queue.acm.org/detail.cfm?id=2555617
+* HTTP/2 Server Push with Node.js, https://blog.risingstack.com/node-js-http-2-push/
+* What you need to know about HTTP/2, https://fly.io/articles/http2-for-devs/
+
 ## Streams
 
 - Linux pipes
