@@ -405,3 +405,28 @@ readable.on('end', () => {
 ### Actividades
 
 Completa los ejercicios de [stream adventure](https://github.com/workshopper/stream-adventure).
+
+## Buffers & Streams
+
+1. Bits & bytes
+2. Notaciones numéricas
+3. Enteros con signo *k*bits ()
+4. `ArrayBuffer`
+   1. Buffer genérico, de datos binarios crudos (raw) con una longitud específica
+5. `TypedArray`
+   1. Representación en arreglo  de un `ArrayBuffer`
+   2. Int8Array, Uint8Array, Int16Array, Uint16Array...
+6. Node.js `Buffer`
+   1. Implementa el API `Uint8Array`
+   2. Allocations outside the V8 heap
+   3. Character encodings
+
+### Referencias
+
+1. Numbers and dates, https://mdn-mixmix.hashbase.io/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates.html#Numbers
+2. How to Use Buffers in Node.js, https://docs.nodejitsu.com/articles/advanced/buffers/how-to-use-buffers/
+3. Bitwise operators, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
+4. ArrayBuffer, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+5. TypedArray, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+6. Buffer, https://nodejs.org/api/buffer.html
+7. Buffers and Character Encodings, https://nodejs.org/api/buffer.html#buffer_buffers_and_character_encodings
