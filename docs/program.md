@@ -430,3 +430,53 @@ Completa los ejercicios de [stream adventure](https://github.com/workshopper/str
 5. TypedArray, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 6. Buffer, https://nodejs.org/api/buffer.html
 7. Buffers and Character Encodings, https://nodejs.org/api/buffer.html#buffer_buffers_and_character_encodings
+
+## WebSockets
+
+1. Comunicación bidireccional para aplicaciones basadas en navegador
+   1. Evita abrir múltiples conexiones HTTP: `XMLHttpRequest`, `<iframe>` & long-polling
+2. Protocolo WebSocket
+   1. Comunicación bidireccional
+
+   2. TCP
+
+   3. El protocolo consite en: 
+
+      1. Handshake
+      2. Transferencia de datos:  basic message framing
+
+   4. Schema: `ws://`
+
+   5. Puertos 80 & 443
+
+      > The WebSocket Protocol attempts to address the
+      >  goals of existing bidirectional HTTP technologies in the context of
+      >  the existing HTTP infrastructure; as such, it is designed to work
+      >  over HTTP ports 80 and 443 as well as to support HTTP proxies and
+      >  intermediaries, even if this implies some complexity specific to the
+      >  current environment.
+3. Aplicaciones
+   1. Mensajería instantánea (chat)
+   2. Videojuegos
+   3. Stock tickers
+   4. Aplicaciones multiusuarios con edición simultánea
+   5. Actualización en vivo de streams de redes sociales
+4. Demos
+   1. Kaazing WebSocket Echo Demo, http://demos.kaazing.com/echo/
+   2. Socket.io, https://socket.io/demos/chat/
+5. Clientes & servidores,
+   1. websockets/ws, https://github.com/websockets/ws
+   2. socket.io, https://github.com/socketio/socket.io
+
+### Referencias
+
+1. WebSockets, https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+2. Introducing WebSockets: Bringing Sockets to the Web, https://www.html5rocks.com/en/tutorials/websockets/basics/
+3. The WebSocket Protocol, https://tools.ietf.org/html/rfc6455
+4. The WebSocket API, https://www.w3.org/TR/websockets/
+5. Analyze the frames of a WebSocket Connection, https://developers.google.com/web/tools/chrome-devtools/network-performance/reference#frames
+6. NGINX as a WebSocket Proxy, https://www.nginx.com/blog/websocket-nginx/
+
+### Actividades
+
+Completa la actividad ["9 WebSockets"](/activities/lab-practices/9%20WebSockets.md).
