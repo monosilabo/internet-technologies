@@ -435,12 +435,14 @@ Completa los ejercicios de [stream adventure](https://github.com/workshopper/str
 
 1. Comunicación bidireccional para aplicaciones basadas en navegador
    1. Evita abrir múltiples conexiones HTTP: `XMLHttpRequest`, `<iframe>` & long-polling
+
 2. Protocolo WebSocket
+
    1. Comunicación bidireccional
 
    2. TCP
 
-   3. El protocolo consite en: 
+   3. El protocolo consiste en:
 
       1. Handshake
       2. Transferencia de datos:  basic message framing
@@ -455,15 +457,18 @@ Completa los ejercicios de [stream adventure](https://github.com/workshopper/str
       >  over HTTP ports 80 and 443 as well as to support HTTP proxies and
       >  intermediaries, even if this implies some complexity specific to the
       >  current environment.
+
 3. Aplicaciones
    1. Mensajería instantánea (chat)
    2. Videojuegos
    3. Stock tickers
    4. Aplicaciones multiusuarios con edición simultánea
    5. Actualización en vivo de streams de redes sociales
+
 4. Demos
    1. Kaazing WebSocket Echo Demo, http://demos.kaazing.com/echo/
    2. Socket.io, https://socket.io/demos/chat/
+
 5. Clientes & servidores,
    1. websockets/ws, https://github.com/websockets/ws
    2. socket.io, https://github.com/socketio/socket.io
@@ -480,3 +485,33 @@ Completa los ejercicios de [stream adventure](https://github.com/workshopper/str
 ### Actividades
 
 Completa la actividad ["9 WebSockets"](/activities/lab-practices/9%20WebSockets.md).
+
+## Aplicaciones HTTP
+
+- HTTP
+- Middleware
+  - Extends the built-in HTTP server functionality and adds a plugin framework
+  - Frameworks:
+    - [Connect](https://github.com/senchalabs/connect)
+    - [Express](https://expressjs.com/)
+    - [koa](https://github.com/koajs/koa)
+  - Features
+    - Body parser
+    - Compression
+    - Timeout
+    - Cookie parser
+    - Cooke session
+    - CSRF
+    - Error handler
+    - Logger
+    - Response time
+    - Static files
+    - Routing
+- More frameworks
+  - [sails](https://github.com/balderdashy/sails)
+  - [restify](http://restify.com/docs/home/)
+  - [hapi](https://hapijs.com/)
+
+### Referencias
+
+- Node Frameworks, http://nodeframework.com/
